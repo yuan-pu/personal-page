@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="UTF-8">
+<title>Yuan Pu</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link href='https://fonts.googleapis.com/css?family=Courier Prime' rel='stylesheet'> 
+<style>
+body {font-family:'Courier Prime'}
+h1,h2,h3,h4,h5,h6 {font-family:'Courier Prime'; letter-spacing:0px}
+.container {
+  position: relative;
+  width: 100%;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #ffffff;
+  }
+  
+.container:hover .overlay {
+opacity: 1;
+}
+</style>
+
+
+  
+
+<body>
+
+<!-- Navigation (Sits on top) -->
+<div class="w3-top w3-bar w3-white w3-padding w3-card w3-wide"><h2>
+    <a href="#home" class="w3-bar-item w3-button w3-animate-opacity"><b>Yuan Pu</b></a>
+
+
+<!-- Right-sided navbar links. Hide them on small screens -->
+<div class="w3-right w3-hide-small"><h6>
+    <a href="#about" class="w3-bar-item w3-button w3-animate-opacity">About</a>
+    <a href="#projects" class="w3-bar-item w3-button w3-animate-opacity">Projects</a>
+    <a href="#coursework" class="w3-bar-item w3-button w3-animate-opacity">Coursework</a>
+    <a href="#artwork" class="w3-bar-item w3-button w3-animate-opacity">Artwork</a>
+    <!-- <a href="#storyboard" class="w3-bar-item w3-button w3-animate-opacity">Storyboard</a> -->
+    </div>
+</div>
+
+
+<!-- Start Content -->
+<div id="home" class="w3-content">
+
+    <!-- About -->
+    <div id="about" class="w3-padding-top-64 w3-padding">
+        <h3 class="w3-row"><br>About</h3>
+        <div class="w3-third w3-padding-large">
+            <div class="container w3-center">
+                <img src="yuan_profile.jpg" alt="Yuan's profile" style="width:80%">
+                <div class="overlay">
+                    <img src="yuan_hover.jpg" alt="Yuan's profile, cat version" style="width:80%">
+                </div>
+            </div>
+        </div>
+        <div class="w3-twothird w3-padding-large">
+            <p class="w3-large">
+                Hi! I'm Yuan Pu (浦媛). <br>
+                This site is still under construction, please come back later :( <br>
+                When finished, this site will record my up-to-date coursework and research projects, 
+                as well as my various works in art (handicraft, photography, drawing, design, etc.) - stay tuned! 
+            </p>
+        </div>
+
+        
+
+        <!-- <div class="w3-padding-large">
+            <p class="w3-large">
+                The elevators are arguably the most frequently used facilities in the CIT. Given their almost identical designs, functions, and users, I consider the two elevators as a single, complete interface.
+            </p>
+        </div> -->
+    </div>
+
+    <!-- Observation -->
+    <!-- <div id="observation" class="w3-padding-top-64">
+        <h3 class="w3-row"><br>Observation</h3>
+
+        <div class="w3-padding-large">
+            <p class="w3-large">
+                <li>The elevators have their peak times right before and after classes.</li>
+                <li>Some users don't mind which elevator they will take or how long they will wait.</li>
+                <li>Some users call up both elevators and take the one that arrives first.</li>
+                <li>A group of people arrive at the elevators at the same time usually only call one elevator and take the elevator together.</li>
+                <li>While waiting for the elevator, some people focus on the state-showing screen while others only occasionally look up.</li>
+                <li>Users usually look out after they enter the cabin.</li>
+                <li>Users usually look up for the inner state-showing screen before they march out.</li>
+                <li>It usually takes some time for users to hit the desired button on the inner key pad.</li>
+            </p>
+        </div>
+    </div> -->
+
+    <!-- Interview -->
+    <!-- <div id="interview" class="w3-padding-top-64">
+        <h3 class="w3-row"><br>Interview</h3>
+        
+        <div class="w3-padding-large">
+            <p class="w3-large">
+                Which floor are users going to?
+                <li>Floor 3 to 5.</li>
+                <br>
+            </p>
+            
+            <p class="w3-large">
+                Why are users going there?
+                <li>For class, meeting, or grabing a place for study.</li>
+                <br>
+            </p>
+
+            <p class="w3-large">
+                How often do users take elevators (per times they visits CIT)?
+                <li>Depends on which floor the users usually go
+                    <ul>
+                        <li>If the destination is on the third floor or higher, Users almost always use elevators. </li>
+                        <li>Users hardly use the elevators to reach the second floor.</li>
+                    </ul>
+                </li>
+                <li>On average, more than 50 percent of times.</li>
+                <br>
+            </p>
+            
+            <p class="w3-large">
+                How long have users waited for the elevator?
+                <li>During peak times (right before and after the classes), users report a waiting time longer than 1 minute.</li>
+                <li>Some users do not notice or mind the waiting time at all.</li>
+                <br>
+            </p>
+
+            <p class="w3-large">
+                Do users usually hit the “open door” button? Do they feel it is effective?
+                <li>Users use the "open door" button if they are the first entering the elevator or if they see someone's heading toward the elevator.</li>
+                <li>The button is, and has to be, effective.</li>
+                <br>
+            </p>
+            
+            <p class="w3-large">
+                Do users usually hit the “close door” button? Do they feel it is effective?
+                <li>Some users have the habit to hit the "close door" button as long as the waiting group enters the elevator. They feel the button ineffective, though.</li>
+                <li>Some users hit the button if they are rushing.</li>
+                <li>Most users hardly use the button.</li>
+                <br>
+            </p>
+
+            <p class="w3-large">
+                Is there anything about the elevator not asked but users want to share?
+                <li>It's very strange that higher levels of CIT don't have the state-showing screen.</li>
+                <li>The buttons on the internal key pad of the larger elevator are strangely organized.</li>
+                <br>
+            </p>
+            
+        </div>
+    </div> -->
+
+    <!-- Personas -->
+    <!-- <div id="personas" class="w3-padding-top-64">
+        <h3 class="w3-row"><br>Personas</h3>
+
+        <div class="w3-display-container">
+        <img src="CSCI1300_hw1_p2.png" alt="CIT elevators personas" style="width:100%">
+        </div>
+    </div> -->
+
+
+    <!-- Storyboard -->
+    <!-- <div id="storyboard" class="w3-padding-top-64">
+        <h3 class="w3-row"><br>Storyboard</h3>
+
+        <div class="w3-display-container">
+        <img src="CSCI1300_hw1_p3.png" alt="CIT elevators storyboard" style="width:100%">
+        </div>
+    </div> -->
+
+<!-- End Content -->
+</div>
+
+</body>
+</html> 
