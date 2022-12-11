@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="UTF-8">
+<title>Yuan Pu</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+<link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+<link href='https://fonts.googleapis.com/css?family=Ma Shan Zheng' rel='stylesheet'> 
+<style>
+body {font-family:'Montserrat', 'Ma Shan Zheng'}
+h1,h2,h3,h4,h5,h6 {font-family:'Montserrat','Ma Shan Zheng'; letter-spacing:0px}
+.container {
+  position: relative;
+  width: 100%;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #ffffff;
+  }
+  
+.container:hover .overlay {
+opacity: 1;
+}
+</style>
+
+
+  
+
+<body>
+
+<!-- Navigation (Sits on top) -->
+<div class="w3-top w3-bar w3-white w3-padding w3-card w3-wide"><h2>
+    <a href="#home" class="w3-bar-item w3-button"><b>Yuan Pu</b></a>
+
+
+<!-- Right-sided navbar links. Hide them on small screens -->
+<div class="w3-right w3-hide-small"><h6>
+    <a href="#about" class="w3-bar-item w3-button">About</a>
+    <a href="#projects" class="w3-bar-item w3-button">Projects</a>
+    <a href="#teaching" class="w3-bar-item w3-button">Teaching</a>
+    <a href="#coursework" class="w3-bar-item w3-button">Coursework</a>
+    <a href="#artwork" class="w3-bar-item w3-button">Artwork</a>
+    </div>
+</div>
+
+
+<!-- Start Content -->
+<div id="home" class="w3-content">
+
+    <!-- About -->
+    <div id="about" class="w3-padding-top-64" style="margin-bottom: -40px;">
+        <h3 class="w3-row"><br><b>About</b></h3>
+        <div class="w3-row">
+            <div class="w3-third w3-padding-large">
+                <div class="container w3-center">
+                    <img src="images/yuan_profile.jpg" alt="Yuan's profile" style="width:75%">
+                    <div class="overlay">
+                        <img src="images/yuan_hover.png" alt="Yuan's profile, cat version" style="width:75%">
+                    </div>
+                </div>
+            </div>
+            <div class="w3-twothird w3-padding-large">
+                <p class="w3-large">Hi! I'm Yuan Pu (浦媛). </p>
+                <p>
+                    As a Computational Biology B.S. honors candidate at Brown University, 
+                    I have a keen interest in applying computational tools to solve biological questions. 
+                    In addition to completing interdisciplinary coursework, 
+                    I spend much time doing research projects on biological data 
+                    using statistical analysis and deep learning.
+                </p>
+                <p>
+                    For my leisure time, I make art, read fictions, and play Mahjong :)
+                </p>
+                <a href="https://drive.google.com/file/d/1M5B9KIJScZVzaGvAXZXEc-Usx8kEbGxf/view?usp=sharing" style="text-decoration:none" target="_blank" class="w3-tag w3-black w3-round-large">CV</a>
+                <a href="https://www.linkedin.com/in/yuan-pu/" style="text-decoration:none" target="_blank" class="w3-tag w3-black w3-round-large">LinkedIn</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Projects -->
+    <div id="projects" class="w3-padding-top-64" style="margin-bottom: -40px;">
+        <h3 class="w3-row"><br><b>Projects</b></h3>
+        <div class="w3-padding-large">
+            <p>Check <a href="https://drive.google.com/file/d/18LDkzJvd9bqm2qD9ZDQ8MitMLZSoOJIS/view?usp=sharing" style="text-decoration:none" target="_blank" class="w3-tag w3-black w3-round-large">here</a> for a detailed overview of my major research experiences.</p>
+            <b>2022</b>
+            <ul>
+                <li>[Ongoing] [Honors Thesis] <b>Building Interpretable Deep Learning Models for Predicting Gene Expression from Epigenetic Glioblastoma Data</b>
+                    <ul>
+                        <li><u>Advisor</u>: Dr. Ritambhara Singh
+                        </li>
+                    </ul>
+                </li>
+                <li>[Ongoing] <b>Investigating Low-dosage Testicular Toxicant EGME's Impact on Small RNA Expression in Rat Sperm</b>
+                    <ul>
+                        <li><u>Advisors</u>: Dr. August Guang and Dr. Daniel Spade
+                        </li>
+                    </ul>
+                </li>
+                <li>[Ongoing] [Course Project] <b>Text-guided 3D Object Editing</b>
+                    <ul>
+                        <li><u>Collaborators</u>: Yuanhao Wang, Tian Yun, and Andrew Wang
+                        </li>
+                    </ul>
+                </li>
+                <li>[Ongoing] <b>Investigating Germline Factor DDX4's Role in Cancer - Alternative Splicing Analysis</b>
+                    <ul>
+                        <li><u>Advisor</u>: Dr. Mamiko Yajima
+                        </li>
+                        <li><u>Collaborators</u>: Yusuke Suita and Yoonah Lee
+                        </li>
+                    </ul>
+                </li>
+                <li>[Course Project] <b>An Overall Introduction of Algorithms for Haplotype Inference</b> 
+                    <ul>
+                        <li>
+                            <a href="https://drive.google.com/file/d/1H__tNefUNQryIc5LqEHGHLX7g5X81y-z/view?usp=sharing" style="text-decoration:none" target="_blank" class="w3-tag w3-black w3-round-large">slides</a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+            <b>2021</b>
+            <ul>
+                <li>[Course Project] <b>Boney Boney - Exploring Self Attention Network for Body Part Recognition from X-ray</b> 
+                    <ul>
+                        <li><u>Collaborators</u>: Kailiang Fu and Yuchen Han
+                        </li>
+                        <li>
+                            <a href="https://drive.google.com/file/d/1G5U6j1WE4bTwIn2DzcFO9g_xEW8C3dXi/view?usp=sharing" style="text-decoration:none" target="_blank" class="w3-tag w3-black w3-round-large">poster</a>
+                            <a href="https://drive.google.com/file/d/19RUYOGB4__MsqQYTm21ipr3QBUMP3fMk/view?usp=sharing" style="text-decoration:none" target="_blank" class="w3-tag w3-black w3-round-large">writeup</a>
+                            <a href="https://github.com/Kail-Fu/BoneyBoney" style="text-decoration:none" target="_blank" class="w3-tag w3-black w3-round-large">GitHub</a>
+                            <a href="https://devpost.com/software/bonessss" style="text-decoration:none" target="_blank" class="w3-tag w3-black w3-round-large">Devpost</a>
+                        </li>
+                    </ul>
+                <li>[Course Project] <b>Miyazaki Style Transfer</b>
+                    <ul>
+                        <li><u>Collaborators</u>: Ching Lam, Charles Tan, and Irene Wang
+                        </li>
+                        <li>
+                            <a href="https://drive.google.com/file/d/1-qHuDK2OsrjO59tFVLfrPv2gRFYIL7vy/view?usp=sharing" style="text-decoration:none" target="_blank" class="w3-tag w3-black w3-round-large">poster</a>
+                            <a href="https://drive.google.com/file/d/11NlDOIQqRM47Ax18iDNnPv68L_-mVD0g/view?usp=sharing" style="text-decoration:none" target="_blank" class="w3-tag w3-black w3-round-large">writeup</a>
+                            <a href="https://github.com/charles-tan/miyazaki-style-transfer" style="text-decoration:none" target="_blank" class="w3-tag w3-black w3-round-large">GitHub</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>[Course Project] <b>(A Brief Review of) Dynamic Programming Algorithms for RNA Structure Prediction</b> 
+                    <ul>
+                        <li>
+                            <a href="https://drive.google.com/file/d/1FE7gliWxCxqVRy7AmlmbPSBjhrvA5q2t/view?usp=sharing" style="text-decoration:none" target="_blank" class="w3-tag w3-black w3-round-large">slides</a>
+                        </li>
+                    </ul>
+                </li>
+                <li><b>Investigating Germline Factor DDX4's Role in Cancer - Clinical Data Mining and Differential Analysis</b>
+                    <ul>
+                        <li><u>Advisor</u>: Dr. Mamiko Yajima
+                        </li>
+                        <li><u>Collaborators</u>: Shakson Issac, Yusuke Suita, and Yoonah Lee
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+
+    <!-- Teaching -->
+    <div id="teaching" class="w3-padding-top-64" style="margin-bottom: -40px;">
+        <h3 class="w3-row"><br><b>Teaching Experience</b></h3>
+        <div class="w3-padding-large">
+            <b>Brown University</b> (*graduate-level)
+            <ul>
+                <li><b>CSCI1430 Computer Vision</b>
+                    <ul>
+                        <li><u>Instructor</u>: Dr. James Tompkin
+                        </li>
+                        <li><u>Terms</u>: Spring 2022 and Spring 2023 (expected)
+                        </li>
+                        <li><a href="https://browncsci1430.github.io/webpage/index.html" style="text-decoration:none" target="_blank" class="w3-tag w3-black w3-round-large">website</a>
+                        </li>
+                    </ul>
+                </li>
+                <li><b>CSCI1810/2810* Computational Molecular Biology</b>
+                    <ul>
+                        <li><u>Instructor</u>: Dr. Sorin Istrail
+                        </li>
+                        <li><u>Term</u>: Fall 2022
+                        </li>
+                        <li><a href="https://brown-cs181-fall22.github.io/" style="text-decoration:none" target="_blank" class="w3-tag w3-black w3-round-large">website</a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+
+    <!-- Coursework -->
+    <div id="coursework" class="w3-padding-top-64" style="margin-bottom: -40px;">
+        <h3 class="w3-row"><br><b>Related Coursework</b></h3>
+        <div class="w3-padding-large">
+            <b>Biology, Chemistry, and Neuroscience</b>
+            <ul>
+                <li>Genetics</li>
+                <li>Cell and Molecular Biology</li>
+                <li>DNA-based Technology (with experimental lab using PCR)</li>
+                <li>General Chemistry</li>
+                <li>Organic Chemistry</li>
+                <li>Neurobiology</li>
+                <li>Neural Systems</li>
+                <li>Neurogenetics</li>
+            </ul>
+            <b>Computer Science</b>
+            <ul>
+                <li>Machine Learning</li>
+                <li>Deep Learning</li>
+                <li>Computer Vision</li>
+                <li>Computational Biology</li>
+                <li>Computational Linguistics</li>
+            </ul>
+            <b>Mathematics, Applied Mathematics, and Statistics</b>
+            <ul>
+                <li>Multivariable Calculus</li>
+                <li>Linear Algebra</li>
+                <li>Discrete Structures</li>
+                <li>Statistical Inference</li>
+                <li>Computational Probability and Statistics</li>
+                <li>Causal Inference</li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Artwork -->
+    <div id="artwork" class="w3-padding-top-64" style="margin-bottom: -40px;">
+        <h3 class="w3-row"><br><b>Artwork</b></h3>
+        <div class="w3-padding-large">
+            <p> Below are selected artwork of mine, arranged in columns from left to right: hand-made hairpins, drawings, and photos.</p>
+            <p> Also check <a href="https://fakecat016.github.io/final-portfolio/" style="text-decoration:none" target="_blank" class="w3-tag w3-black w3-round-large">here</a> for my UIUX portfolio (for now this is kept anonymous for fair grading).</p>
+            <div class="w3-row-padding" id="myGrid" style="margin-bottom:128px">
+                <div class="w3-quarter">
+                    <img src="images/hairpin_I.jpg" style="width:100%; margin-bottom: 12px;">
+                    <img src="images/hairpin_III.jpg" style="width:100%; margin-bottom: 12px;">
+                    <img src="images/hairpin_IV.jpg" style="width:100%; margin-bottom: 12px;">
+                    <img src="images/hairpin_II.jpg" style="width:100%; margin-bottom: 12px;">
+                </div>
+
+                <div class="w3-quarter">
+                    <img src="images/drawing_I.png" style="width:100%; margin-bottom: 12px;">
+                    <img src="images/drawing_II.jpg" style="width:100%; margin-bottom: 12px;">
+                    <img src="images/drawing_III.jpg" style="width:100%; margin-bottom: 12px;">
+                    <img src="images/drawing_IV.jpg" style="width:100%; margin-bottom: 12px;">
+                </div>
+              
+                <div class="w3-quarter">
+                    <img src="images/seagull_IV.jpg" style="width:100%; margin-bottom: 12px;">
+                    <img src="images/seagull_I.jpg" style="width:100%; margin-bottom: 12px;">
+                    <img src="images/plant_III.jpg" style="width:100%; margin-bottom: 12px;">
+                    
+                </div>
+              
+                <div class="w3-quarter">
+                    <img src="images/scene_I.jpg" style="width:100%; margin-bottom: 12px;">
+                    <img src="images/plant_I.jpg" style="width:100%; margin-bottom: 12px;">
+                    <img src="images/scene_III.jpg" style="width:100%; margin-bottom: 12px;">
+                    <img src="images/scene_II.jpg" style="width:100%; margin-bottom: 12px;">
+                    <img src="images/people_I.jpg" style="width:100%; margin-bottom: 12px;">
+                </div>
+              </div>
+        </div>
+    </div>
+
+<!-- End Content -->
+</div>
+
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>
+
+</body>
+</html> 
